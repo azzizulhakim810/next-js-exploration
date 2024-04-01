@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Analytics",
+  description: "This is next analytics",
+};
 export default function Analytics() {
   return (
     <div className="w-6/12 text-center mx-auto">

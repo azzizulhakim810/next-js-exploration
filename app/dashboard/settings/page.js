@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Settings",
+  description: "This is next settings",
+};
 export default function Settings() {
   return (
     <div className="w-6/12 text-center mx-auto">

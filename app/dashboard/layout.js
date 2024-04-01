@@ -1,4 +1,5 @@
 import Link from "next/link";
+import CustomLink from "../components/CustomLink";
 
 export default function DashboardLayout({ children }) {
   return (
@@ -6,10 +7,10 @@ export default function DashboardLayout({ children }) {
       <nav className="p-4 border-b-[1px] border-gray-700">
         <ul className="flex gap-5 justify-center">
           <li>
-            <Link href="/dashboard/settings">Settings</Link>
+            <CustomLink path="/dashboard/settings">Settings</CustomLink>
           </li>
           <li>
-            <Link href="/dashboard/analytics">Analytics</Link>
+            <CustomLink path="/dashboard/analytics">Analytics</CustomLink>
           </li>
         </ul>
       </nav>
