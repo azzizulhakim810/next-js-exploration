@@ -9,7 +9,10 @@ export default function Home() {
   return (
     <>
       <div className="flex justify-center align-middle">
-        <h1 className="text-5xl py-10">Welcome to our arena</h1>
+        <div className="text-center py-10">
+          <h1 className="text-5xl pb-4">Welcome to our arena</h1>
+          <p>Keep your eye on</p>
+        </div>
       </div>
 
       <div className="flex justify-center gap-5">
