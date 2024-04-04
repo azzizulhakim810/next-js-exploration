@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav className="p-4 border-b-[1px]  border-gray-700">
+        <nav className="p-4 border-b-[1px] border-gray-700">
           <ul className="flex gap-5 justify-center">
             <li>
               <CustomLink path="/">Home</CustomLink>
