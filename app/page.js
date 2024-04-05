@@ -11,8 +11,10 @@ export default function Home() {
       <div className="flex justify-center align-middle">
         <div className="text-center py-10">
           <h1 className="text-5xl pb-4">Welcome to our Next arena</h1>
-          <p>Keep your eye</p>
-          <span className="text-red-400"> ON</span>
+          <p>
+            Keep your eye
+            <span className="text-red-400"> ON 🔥</span>
+          </p>
         </div>
       </div>
 
