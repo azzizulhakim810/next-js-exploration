@@ -10,15 +10,17 @@ export default function Home() {
     <>
       <div className="flex justify-center align-middle">
         <div className="text-center py-10">
-          <h1 className="text-5xl pb-4">Welcome to our arena</h1>
+          <h1 className="text-5xl pb-4">Welcome to our Next arena</h1>
           <p>Keep your eye</p>
           <span className="text-red-400"> ON</span>
         </div>
       </div>
 
       <div className="flex justify-center gap-5">
-        <SharedButton path="/dashboard/settings">Go to settings</SharedButton>
-        <SharedButton path="/dashboard/analytics">Go to Analytics</SharedButton>
+        <SharedButton path="/dashboard/settings">Move to settings</SharedButton>
+        <SharedButton path="/dashboard/analytics">
+          Move to Analytics
+        </SharedButton>
         <SortProducts />
       </div>
     </>
