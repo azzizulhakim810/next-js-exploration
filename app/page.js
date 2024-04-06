@@ -15,6 +15,7 @@ export default function Home() {
             Keep your eye
             <span className="text-red-400"> ON 🔥</span>
           </p>
+          <p>Exciting & Wonderful</p>
         </div>
       </div>
 
