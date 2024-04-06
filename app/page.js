@@ -12,10 +12,9 @@ export default function Home() {
         <div className="text-center py-10">
           <h1 className="text-5xl pb-4">Welcome to our Next arena</h1>
           <p>
-            Keep your eye
+            Get Raady & Keep your eye
             <span className="text-red-400"> ON 🔥</span>
           </p>
-          <p>Exciting & Wonderful</p>
         </div>
       </div>
 
