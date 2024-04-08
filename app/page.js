@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import SharedButton from "./components/SharedButton";
 import SortProducts from "./components/SortProducts";
 
@@ -23,7 +24,9 @@ export default function Home() {
         <SharedButton path="/dashboard/analytics">
           Move to Analytics
         </SharedButton>
-        <SortProducts />
+        <Suspense>
+          <SortProducts />
+        </Suspense>
       </div>
     </>
   );
