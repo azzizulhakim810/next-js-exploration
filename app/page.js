@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <div className="flex justify-center align-middle">
         <div className="text-center py-10">
-          <h1 className="text-5xl pb-4">Welcome to our ultimate Next arena</h1>
+          <h1 className="text-5xl pb-4">Welcome to the ultimate Next arena</h1>
           <p>
             Get Raady & Keep your eye
             <span className="text-red-400"> ON 🔥</span>
