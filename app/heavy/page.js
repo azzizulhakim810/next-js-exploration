@@ -1,7 +1,7 @@
 const Heavy = () => {
   return (
     <div>
-      <h1>Heavy Page</h1>
+      <h1>Heavy Page Loads Less</h1>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
         labore provident eius fuga quod corporis architecto molestias. Mollitia
