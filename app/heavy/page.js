@@ -2,6 +2,7 @@ const Heavy = () => {
   return (
     <div>
       <h1>Heavy Page Loads Less</h1>
+      <h3>This is heavy page</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aut,
         placeat laborum ratione dolores saepe optio molestiae dolor. Hic
